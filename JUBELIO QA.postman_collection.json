@@ -1,0 +1,324 @@
+{
+	"info": {
+		"_postman_id": "2deeb32b-0815-45e7-ac54-ab57a9b2b34d",
+		"name": "JUBELIO QA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30175297",
+		"_collection_link": "https://lively-desert-142204.postman.co/workspace/fe668f4b-9cfb-4b97-b808-04e5445b83b4/collection/30175297-2deeb32b-0815-45e7-ac54-ab57a9b2b34d?action=share&source=collection_link&creator=30175297"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"qa.rakamin.jubelio@gmail.com\",\r\n  \"password\": \"Jubelio123!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.jubelio.com/login",
+					"protocol": "https",
+					"host": [
+						"api",
+						"jubelio",
+						"com"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"user@example.com\",\r\n  \"password\": \"password\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.jubelio.com/login",
+					"protocol": "https",
+					"host": [
+						"api",
+						"jubelio",
+						"com"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"qa.rakamin.jubelio@gmail.com\",\r\n  \"password\": \"Jubelio123!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.jube.com/login",
+					"protocol": "https",
+					"host": [
+						"api",
+						"jube",
+						"com"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"user@example.com\",\r\n  \"password\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.jubelio.com/login",
+					"protocol": "https",
+					"host": [
+						"api",
+						"jubelio",
+						"com"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlVTRVI6cWEucmFrYW1pbi5qdWJlbGlvQGdtYWlsLmNvbToxODIuMjUzLjE5NC4xIiwiZXhwIjoxNjk2MzQxODI5Mzg2LCJpYXQiOjE2OTYyOTg2Mjl9.YCFpWD_-DQN47btxX0TJGuRuFepMHU7W1nuIL3iut7k",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.jubelio.com/inventory/internal-price-list/",
+					"protocol": "https",
+					"host": [
+						"api",
+						"jubelio",
+						"com"
+					],
+					"path": [
+						"inventory",
+						"internal-price-list",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlVTRVI6cWEucmFrYW1pbi5qdWJlbGlvQGdtYWlsLmNvbToxODIuMjUzLjE5NC4xIiwiZXhwIjoxNjk2MzQxODI5Mzg2LCJpYXQiOjE2OTYyOTg2Mjl9.YCFpWD_-DQN47btxX0TJGuRuFepMHU7W1nuIL3iut7k",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.jubelio.com/inventory/internal-price-list/",
+					"protocol": "https",
+					"host": [
+						"api",
+						"jubelio",
+						"com"
+					],
+					"path": [
+						"inventory",
+						"internal-price-list",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlVTRVI6cWEucmFrYW1pbi5qdWJlbGlvQGdtYWlsLmNvbToxODIuMjUzLjE5NC4xIiwiZXhwIjoxNjk2MzQxODI5Mzg2LCJpYXQiOjE2OTYyOTg2Mjl9.YCFpWD_-DQN47btxX0TJGuRuFepMHU7W1nuIL3iut7k",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.jubelio.com/inventory/internal-price-list/",
+					"protocol": "https",
+					"host": [
+						"api",
+						"jubelio",
+						"com"
+					],
+					"path": [
+						"inventory",
+						"internal-price-list",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlVTRVI6cWEucmFrYW1pbi5qdWJlbGlvQGdtYWlsLmNvbToxODIuMjUzLjE5NC4xIiwiZXhwIjoxNjk2MzQxODI5Mzg2LCJpYXQiOjE2OTYyOTg2Mjl9.YCFpWD_-DQN47btxX0TJGuRuFepMHU7W1nuIL3iut7k",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/User/Downloads/Apple-iPhone-15-lineup-hero-230912_inline.png"
+						},
+						{
+							"key": "name",
+							"value": "Handphone",
+							"type": "text"
+						},
+						{
+							"key": "uid",
+							"value": "69",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.jubelio.com/inventory/upload-image",
+					"protocol": "https",
+					"host": [
+						"api",
+						"jubelio",
+						"com"
+					],
+					"path": [
+						"inventory",
+						"upload-image"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlVTRVI6cWEucmFrYW1pbi5qdWJlbGlvQGdtYWlsLmNvbToxODIuMjUzLjE5NC4xIiwiZXhwIjoxNjk2MzQxODI5Mzg2LCJpYXQiOjE2OTYyOTg2Mjl9.YCFpWD_-DQN47btxX0TJGuRuFepMHU7W1nuIL3iut7k",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/User/Downloads/Apple-iPhone-15-lineup-hero-230912_inline.png"
+						},
+						{
+							"key": "name",
+							"value": "Handphone",
+							"type": "text"
+						},
+						{
+							"key": "uid",
+							"value": "69",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.jubelio.com/inventory/upload-image",
+					"protocol": "https",
+					"host": [
+						"api",
+						"jubelio",
+						"com"
+					],
+					"path": [
+						"inventory",
+						"upload-image"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
